@@ -2,6 +2,8 @@
 # Mapping keys
 ##################################################################
 
+# Keymap from here: https://github.com/pixeltris/GK6X/blob/81761765f020962ed04ad68f8f0837facda7a1fa/GK6X/KeyValues.cs#L269
+
 # This will map Fn+Y to the missing key between left shift and Y (German layout: <>| key) 
-[Base,FnLayer1,FnLayer2,FnLayer3]
+[FnLayer1,FnLayer2,FnLayer3]
 Z:AltBackSlash

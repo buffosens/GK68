@@ -342,3 +342,5 @@
 [10:40:28.7333280] Done
 [10:42:07.4662770] Connected to device 'GK68XS RGB' model:656801834 fw:v1.17
 [10:42:11.5747170] Done
+[11:07:52.7906490] Connected to device 'GK68XS RGB' model:656801834 fw:v1.17
+[11:07:57.5318400] Done
