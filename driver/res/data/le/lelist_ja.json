@@ -1,0 +1,702 @@
+[{
+	"GUID": "5B5E3111-051C-4c66-A669-94FDFDEAEC99",
+	"Name": "全亮緑光"
+},
+{
+	"GUID": "FAE0BFF4-3AF1-4153-AFC6-67739BF584E6",
+	"Name": "RGB"
+},
+{
+	"GUID": "8D1D899F-4FE1-495a-95E5-0CC00B8614AF",
+	"Name": "虹の波"
+},
+{
+	"GUID": "8C807763-E010-49ed-9FFB-501F7CFF5F97",
+	"Name": "風車"
+},
+{
+	"GUID": "280A8618-920F-4e7f-B8B8-C5A8C586E575",
+	"Name": "スペクトル循環"
+},
+{
+	"GUID": "0BF3F838-729C-4ae2-B7EC-7816DD308F4F",
+	"Name": "出会う"
+},
+{
+	"GUID": "0D090AA8-905B-484d-822A-88893CE5072E",
+	"Name": "水紋"
+},
+{
+	"GUID": "1BBB3D0B-94BB-44be-BAAB-361580F0A862",
+"Name": "全亮で白い光"
+},
+{
+	"GUID": "2BB04868-481A-491c-BC81-F96CC14FE6DA",
+"Name": "上下全彩波"
+},
+{
+	"GUID": "2EAE5927-F42B-4d1a-B1CD-BEDEDF7CEFCB",
+"Name": "タンク形"
+},
+{
+	"GUID": "4F869846-1C93-4c92-A34F-B113095A9E42",
+	"Name": "G照明効果"
+},
+{
+	"GUID": "5B232A45-6244-464b-B097-58D67960E046",
+	"Name": "呼吸走馬灯"
+},
+{
+	"GUID": "5D9ABC13-1203-407b-9915-DA1BC10C3B9B",
+	"Name": "スラッシュシャトル"
+},
+{
+	"GUID": "5ECE038B-54E0-4fc2-977D-BF7A23AE40D7",
+	"Name": "ハート形"
+},
+{
+	"GUID": "E61695C2-495D-4dba-85A2-9E637BC7DA5F",
+	"Name": "ときめき"
+},
+{
+	"GUID": "6C3B992C-55C8-4c61-B1D0-1789B9E4A8D9",
+	"Name": "明るくなる"
+},
+{
+	"GUID": "28F9DEAB-CF89-4efb-945E-35F1CC0DE9A5",
+	"Name": "G"
+},
+{
+	"GUID": "51FF89E8-8E4D-4fd2-8B26-B1BC7F2BB57E",
+	"Name": "長春"
+},
+{
+	"GUID": "66D1B9F8-888E-4d90-A83F-7FBF61D0EF01",
+	"Name": " 烈火"
+},
+{
+	"GUID": "52F305BA-1D49-49b3-9B4C-DE8D842C5B16",
+	"Name": "閃光灯"
+},
+{
+	"GUID": "71FFEFF4-BB1C-4d13-8FB3-9598C757458E",
+	"Name": "両極"
+},
+{
+	"GUID": "77E996FB-044E-4e95-BEF3-1F9D19B994FF",
+	"Name": "心電感応"
+},
+{
+	"GUID": "83D327C0-CB0B-4bdf-AA1D-37C1D81BDD8B",
+	"Name": "カラフルな滝"
+},
+{
+	"GUID": "97B15F3D-16C1-47ff-B14A-384CFD3B1296",
+	"Name": "毛虫"
+},
+{
+	"GUID": "116C52EF-A07E-4945-8E7B-9C549F8B28BE",
+	"Name": "走馬"
+},
+{
+	"GUID": "186CDCE3-FA12-41d9-9B6D-80F3CA47B360",
+	"Name": "彩るリボン"
+},
+{
+	"GUID": "586C6562-3006-4c92-8B44-50920FE0C213",
+	"Name": "漂流しぶつけ合う"
+},
+{
+	"GUID": "1728A389-A012-47bf-9716-160CE3F393D3",
+	"Name": "斜張幻影"
+},
+{
+	"GUID": "6107B7F8-5C91-4ee1-8220-D80C15715710",
+	"Name": "彩る雲"
+},
+{
+	"GUID": "7379A1EE-9EBC-42ff-B585-5127429F2A0A",
+	"Name": "MW"
+},
+{
+	"GUID": "C72F3EE5-3B74-4f5e-A2B4-A71D008D2731",
+	"Name": "七彩漸次変化"
+},
+{
+	"GUID": "CE7056D1-03A2-4ae8-9543-E7702382ED07",
+	"Name": "LOL1"
+},
+{
+	"GUID": "E1C88E75-EA4D-4046-9346-23912CBA610F",
+	"Name": "常に光る"
+},
+{
+	"GUID": "E28BC15C-A33D-4e02-9AFB-0EB3C35C7B8A",
+	"Name": "入れ替わり立ち替わり"
+},
+{
+	"GUID": "F0E80F04-C337-4093-A986-8999B343EDE0",
+	"Name": "彩る走馬"
+},
+{
+	"GUID": "8406646B-FF9D-4d41-81E5-CDD55BD8937B",
+	"Name": "守望先鋒"
+},
+{
+	"GUID": "0976A135-0972-4ed6-88D3-7415637581E0",
+	"Name": "守望先鋒-Q"
+},
+{
+	"GUID": "784B55B5-6584-439e-937D-D230CF4C5360",
+	"Name": "守望先鋒-E"
+},
+{
+	"GUID": "AC23B028-9904-4c4e-8EA9-6FDF5FF5A9D0",
+	"Name": "守望先鋒-shift"
+},
+{
+	"GUID": "0ADCF5AC-D642-428b-9F81-97EDA26066A2",
+	"Name": "OW3"
+},
+{
+	"GUID": "1BACC5D3-E8C7-4ecd-AF7F-3AF8D2365EF4",
+	"Name": "暗影死神-モード3"
+},
+{
+	"GUID": "3BD87991-AED6-4b59-A258-41C685672F6C",
+	"Name": "暗影死神-モード1"
+},
+{
+	"GUID": "5A372F1B-5737-4e7d-9DAC-A1949A62E8E8",
+	"Name": "呼吸紫光"
+},
+{
+	"GUID": "5B7756F2-8E4A-4fe8-BCB2-2E84A82EC517",
+	"Name": "左へ移動"
+},
+{
+	"GUID": "5C74D317-2936-430c-9E60-3C021EDCE99A",
+	"Name": "守望先鋒2shift"
+},
+{
+	"GUID": "7A90F380-4E98-4f0f-ADC1-CF68E97F03EE",
+	"Name": "暗影死神-モード1-Q"
+},
+{
+	"GUID": "58F732FD-2020-4b22-B737-E116BE9D413C",
+	"Name": "呼吸赤い光"
+},
+{
+	"GUID": "73C1E6DC-71E7-48c5-9F26-3F247E122491",
+	"Name": "呼吸黄色光"
+},
+{
+	"GUID": "85C11B7F-84C4-428b-8163-D9432B6CADFB",
+	"Name": "全亮紫光"
+},
+{
+	"GUID": "86E5D45D-C183-4918-836A-33F19A633E5C",
+	"Name": "呼吸白い光"
+},
+{
+	"GUID": "534DF4AB-9DE0-4e53-885B-E917E94960D7",
+	"Name": "OW"
+},
+{
+	"GUID": "8307ED76-71CA-4432-857E-98CCFACD96D3",
+	"Name": "RGB"
+},
+{
+	"GUID": "29341B38-96C6-4734-9340-291E5E15454E",
+	"Name": "守望先鋒2E"
+},
+{
+	"GUID": "79755B2E-52B6-46da-A2FB-9DA77063AA48",
+	"Name": "暗影死神-モード1-E"
+},
+{
+	"GUID": "5238327F-2EED-4caa-AA1F-68EF96713BAB",
+	"Name": "キューピッドの矢"
+},
+{
+	"GUID": "56143386-EE72-4ae7-9FC9-8FCF9CA917D2",
+	"Name": "呼吸青い光"
+},
+{
+	"GUID": "A926C034-AEB0-4796-B4D6-632DED932991",
+	"Name": "守望先鋒3E"
+},
+{
+	"GUID": "ACB5D84F-5589-4863-9BFF-146FDDF7EE59",
+	"Name": "全亮赤い光"
+},
+{
+	"GUID": "B70DC715-98F5-40f1-A3A3-86A7E6C95984",
+	"Name": "全亮黄色光"
+},
+{
+	"GUID": "B0239EDC-6B9B-44e4-B2B5-BC0C2297B9C6",
+	"Name": "波に踏む"
+},
+{
+	"GUID": "BA07821A-9744-495b-9B3E-71F019771796",
+	"Name": "全亮青い光"
+},
+{
+	"GUID": "BD5F601A-B76A-4608-B2D4-42325B517C2A",
+	"Name": "暗影死神-モード2"
+},
+{
+	"GUID": "BE8A0B2C-A8D4-4548-BFD0-F40D1A087041",
+	"Name": "全亮ブルー光"
+},
+{
+	"GUID": "C0AD74D6-F9E4-4f7d-ABB7-FDD37C379669",
+	"Name": "OW2"
+},
+{
+	"GUID": "CBFD4EE7-69A3-47cc-BE27-CE4DC21D529C",
+	"Name": "呼吸ブルー光"
+},
+{
+	"GUID": "D1D525B5-C298-4a63-8BA5-9D44E92026B3",
+	"Name": "呼吸緑光"
+},
+{
+	"GUID": "D38D470E-14D9-4eda-B708-62DDADAFA7AD",
+	"Name": "左右移動"
+},
+{
+	"GUID": "DC317317-1DE2-4c6c-A1B8-295CD61D71A4",
+	"Name": "右へ移動"
+},
+{
+	"GUID": "ECB8FC49-E388-4e92-864D-A15F8EAB6700",
+	"Name": "守望先鋒3shift"
+},
+{
+	"GUID": "FD1BBB69-DA96-4dd2-90DE-55C80A2AD3E3",
+	"Name": "OW1"
+},
+{
+	"GUID": "FF9A17C5-98DF-4261-9783-E48C1B34649C",
+	"Name": "暗影死神-モード1-shift"
+},
+{
+	"GUID": "553A5737-BCB5-4814-BB16-36B7DFE4329E",
+	"Name": "Playerunknown's Battlegrounds"
+},
+{
+	"GUID": "26D4E615-0A05-4208-8295-6E3C333FC98F",
+	"Name": "LOL"
+},
+{
+	"GUID": "31EFF8B5-3363-4905-924A-B4FC9D31D084",
+	"Name": "DOTA"
+},
+{
+	"GUID": "422389E0-DAE6-47cc-B2F1-D90D2C00E864",
+	"LeType": "combination",
+	"Name": "All equipment asynchronous streamer"
+},
+{
+	"GUID": "D5157736-C067-44cb-BA84-0B9227AFFC83",
+	"LeType": "combination",
+	"Name": "All equipment green"
+},
+{
+	"GUID": "87741154-EA63-4e4c-9C59-B5249F8B8594",
+	"LeType": "combination",
+	"Name": "All equipment blue"
+},
+{
+	"GUID": "1E384D96-84BE-4582-B463-5ECF6DA40DC4",
+	"LeType": "combination",
+	"Name": "All equipment green breath"
+},
+{
+	"GUID": "D43AC392-DF71-49c8-A9B2-ED2D70AD3EA1",
+	"LeType": "combination",
+	"Name": "All equipment red breath"
+},
+{
+	"GUID": "E8BD00AA-0FB8-4640-A962-AF740C7419F3",
+	"LeType": "combination",
+	"Name": "All equipment blue breath"
+},
+{
+	"GUID": "CA48BB92-593B-4891-A52F-41E8FB04BF8B",
+	"LeType": "combination",
+	"Name": "All equipment RGB"
+},
+{
+	"GUID": "B675057B-366F-4a63-87C9-F06EAAB8D4E5",
+	"LeType": "combination",
+	"Name": "All equipment Synchro Shine"
+},
+{
+	"GUID": "B4323BB6-F8FE-49f2-B07A-E2569328CD3E",
+	"LeType": "combination",
+	"Name": "All equipment Asynchronous Shine"
+},
+{
+	"GUID": "2A5752C0-1059-41bd-A0F1-BD476627A871",
+	"LeType": "combination",
+	"Name": "All equipment Undulating waves"
+},
+{
+	"GUID": "BE8F8E70-1563-4dd2-B5CB-9D9988B79F34",
+	"LeType": "combination",
+	"Name": "All equipment Colourful dazzling"
+},
+{
+	"GUID": "D388A0FB-8F42-4f7e-AFC7-F98B826C2865",
+	"LeType": "combination",
+	"Name": "All equipment Dazzle"
+},
+{
+	"GUID": "F058CDB8-F108-4482-B26E-E285515E92AD",
+	"LeType": "combination",
+	"Name": "All equipment Ice fire collision"
+},
+{
+	"GUID": "7A9A8D36-683D-4369-A277-50C2DBA0D1B0",
+	"LeType": "combination",
+	"Name": "All equipment Pink love bomb"
+},
+{
+	"GUID": "5B255BF6-39AA-43cf-ACAD-FB87C2A03DC6",
+	"LeType": "combination",
+	"Name": "All equipment Riotous greet"
+},
+{
+	"GUID": "2AFA1FA8-6988-410d-AD1D-0875851E0924",
+	"LeType": "combination",
+	"Name": "All equipment Meteor"
+},
+{
+	"GUID": "8962DD8D-72FB-4fe6-80B5-DCAF5E48CCC7",
+	"LeType": "combination",
+	"Name": "All equipment Cyan blazed"
+},
+{
+	"GUID": "0D5C872E-E4C1-4636-870C-C92B0FD951ED",
+	"LeType": "combination",
+	"Name": "All equipment Starlight blazed"
+},
+{
+	"GUID": "3803B7F8-35F9-46cc-B96B-90660A9FA6BC",
+	"LeType": "combination",
+	"Name": "All equipment Palpitate"
+},
+{
+	"GUID": "E64FDEFC-88C3-4167-8228-609F7936F253",
+	"LeType": "combination",
+	"Name": "All equipment Minds think alike"
+},
+{
+	"GUID": "E25817F8-DFF9-4cc5-A393-DC0EF3D4E646",
+	"LeType": "combination",
+	"Name": "CSGO game lamp effect"
+},
+{
+	"GUID": "2416D981-B369-4796-B2FB-E429963C88C3",
+	"LeType": "simple",
+	"Name": "All breath",
+	"LeCate": 1760
+},
+{
+	"GUID": "5C5597F8-5355-4abd-8080-3A7949A4D3E4",
+	"LeType": "simple",
+	"Name": "RGB Horse racing",
+	"LeCate": 1760
+},
+{
+	"GUID": "E22FC2D3-0D91-421b-B918-CE5457A10926",
+	"LeType": "simple",
+	"Name": "RGB Circulatory extinction",
+	"LeCate": 1760
+},
+{
+	"GUID": "1030E8C2-5036-4e6f-AC6F-E9A7003180BD",
+	"LeType": "simple",
+	"Name": "Imitating TT 1",
+	"LeCate": 1760
+},
+{
+	"GUID": "3E0EFF7B-C772-4065-B89C-2959864A5B3C",
+	"LeType": "simple",
+	"Name": "Imitating TT 2",
+	"LeCate": 1760
+},
+{
+	"GUID": "9C40B2E4-717D-43de-A33E-65A76C33F885",
+	"LeType": "simple",
+	"Name": "Comet 2",
+	"LeCate": 1760
+},
+{
+	"GUID": "7EB8A4D2-8D0B-464f-8135-A12219E72285",
+	"LeType": "simple",
+	"Name": "RGB Spectral cycle",
+	"LeCate": 1760
+},
+{
+	"GUID": "DBD5A253-7815-4b52-8B04-62EBC07FBA56",
+	"LeType": "simple",
+	"Name": "Imitating TT 3",
+	"LeCate": 1760
+},
+{
+	"GUID": "8A907B5B-DAF4-4b01-B226-29C17EC5B8FA",
+	"Name": "TT Spectral cycle 1",
+	"LeType": "simple",
+	"LeCate": 1760
+},
+{
+	"GUID": "A7593B2E-C0B6-432e-97B7-D05A1BEACE06",
+	"Name": "Mouse red breath",
+	"LeType": "simple",
+	"LeCate": 80
+},
+{
+	"GUID": "415B09D0-0B22-4cbd-BC53-A5A9B88019AC",
+	"Name": "Mouse green breath",
+	"LeType": "simple",
+	"LeCate": 80
+},
+{
+	"GUID": "7867893D-03E4-46dc-9691-862DACAE2575",
+	"Name": "Mouse blue breath",
+	"LeType": "simple",
+	"LeCate": 80
+},
+{
+	"GUID": "56F81D4E-9C2E-4cdd-ADCE-6B2242A44013",
+	"Name": "Mouse Neon breath",
+	"LeType": "simple",
+	"LeCate": 80
+},
+{
+	"GUID": "E228A719-C5F1-41f2-A6F6-8F14D8960C23",
+	"Name": "Mouse endless stream",
+	"LeType": "simple",
+	"LeCate": 80
+},
+{
+	"GUID": "A4F6A61F-5924-4e0b-9E74-85B1C7445048",
+	"Name": "Mouse promoted step by step",
+	"LeType": "simple",
+	"LeCate": 80
+},
+{
+	"GUID": "08747B19-C8BC-4c49-AF8B-F4C8E2FE72B8",
+	"Name": "Mouse passion meets",
+	"LeType": "simple",
+	"LeCate": 80
+},
+{
+	"GUID": "F6561D3B-0345-4932-AAAD-048E8F3AC68E",
+	"Name": "Mouse red light",
+	"LeType": "simple",
+	"LeCate": 80
+},
+{
+	"GUID": "4B97A51F-F58F-4f22-BEA4-B37629DA87BF",
+	"Name": "Mouse green light",
+	"LeType": "simple",
+	"LeCate": 80
+},
+{
+	"GUID": "9325F87C-DECE-435f-B5D9-BB9734980B9D",
+	"Name": "Mouse blue light",
+	"LeType": "simple",
+	"LeCate": 80
+},
+{
+	"GUID": "8A66600A-9B5A-4eeb-A208-54EDBE7331E1",
+	"Name": "Mouse mixed colors are always bright",
+	"LeType": "simple",
+	"LeCate": 80
+},
+{
+	"GUID": "B9CEB525-1475-412d-BB1A-297C32438423",
+	"Name": "Mouse blink",
+	"LeType": "simple",
+	"LeCate": 80
+},
+{
+	"GUID": "404ED64F-F2FF-45ba-8135-2B9590AB8DAF",
+	"Name": "Symphony streamer",
+	"LeType": "simple",
+	"LeCate": 80
+},
+{
+	"GUID": "27792B02-5B07-4403-9FFF-F91F85A7AA33",
+	"Name": "MousePad-RGB",
+	"LeType": "simple",
+	"LeCate": 120
+},
+{
+	"GUID": "639CB064-16F5-4503-8B53-0F18EC783DC6",
+	"Name": "MousePad-Pink",
+	"LeType": "simple",
+	"LeCate": 120
+},
+{
+	"GUID": "83F60B24-1551-4b68-BEC7-1F704E503715",
+	"Name": "MousePad-Cyan-Breath",
+	"LeType": "simple",
+	"LeCate": 120
+},
+{
+	"GUID": "FA16331F-D014-4428-9D2A-62A3835F98B7",
+	"Name": "MousePad-Spectral",
+	"LeType": "simple",
+	"LeCate": 120
+},
+{
+	"GUID": "773A57C9-F7E8-4f0e-86E1-6100F47B16B6",
+	"Name": "MousePad-Colorful-Breath",
+	"LeType": "simple",
+	"LeCate": 120
+},
+{
+	"GUID": "5A9FA219-A8DE-4579-BDA7-F4B649C82BED",
+	"Name": "Mousepad-Fire and Water",
+	"LeCate": 120
+},
+{
+	"GUID": "5A3E5484-C79A-43b2-A2C8-F7D7DFD4BACB",
+	"Name": "Mousepad-Dazzling",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "50109FF1-48E5-4708-BF13-286467D0F7DD",
+	"Name": "Mousepad-Flipped",
+	"LeCate": 120
+},
+{
+	"GUID": "9366381D-50E0-47d1-B468-4688FF344BA2",
+	"Name": "Mousepad-Heartbeat Wave",
+	"LeCate": 120
+},
+{
+	"GUID": "FB07CDD4-32C2-478b-A2A1-796EBA8E5B2D",
+	"Name": "Mousepad-Colorful Swirling",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "CAB62CE2-816F-4b6c-9E0E-5507AB510B95",
+	"Name": "Mousepad-Heartbeat",
+	"LeCate": 120
+},
+{
+	"GUID": "F0167F39-5F8A-47f1-886F-87A772309361",
+	"Name": "Mousepad-Butterfly",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "1024A97A-B742-4fdf-AFE6-FA102A346551",
+	"Name": "Mousepad-Breathing-Red",
+	"LeCate": 120
+},
+{
+	"GUID": "A82CDFEC-BEEA-46e1-A819-33950C034D97",
+	"Name": "Mousepad-Breathing-Blue",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "F0140C2E-F8FE-4731-A4ED-A0BE01D05CF3",
+	"Name": "Mousepad-Fragrant Mint",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "FCB56669-F6BB-4c69-994A-4006B7C7DA7B",
+	"Name": "Mousepad-Breathing-Green",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "A0EAFBCF-CF75-48a3-83BA-C915C6625DD5",
+	"Name": "Mousepad-Breathing-Purple",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "5634103F-0C34-4548-93A2-8DD5A8285D9B",
+	"Name": "Mousepad-Breathing-Yellow",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "DB164403-ED99-4e02-9052-BCB9F6FA236D",
+	"Name": "Mousepad-Sunshine",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "5754D4C8-F04D-466b-9C8E-F939F278CE1E",
+	"Name": "Mousepad-Red",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "3723FC18-6875-4759-9AEE-E0FA2442430D",
+	"Name": "Mousepad-Blue",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "C85AA044-1237-4eb8-9518-5A50AB181212",
+	"Name": "Mousepad-Ice blue",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "6C5971E3-8C46-4cbc-91B0-43D6A56E2881",
+	"Name": "Mousepad-Purple",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "B0D7CE44-C0DF-4307-A03D-709ED8F04584",
+	"Name": "Mousepad-Green",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "71F8F4AF-906F-4cb9-AE2C-CCAFE9DC6C2F",
+	"Name": "Mousepad-Yellow",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "11E83270-D225-45a5-96D5-AC66D1E28C12",
+	"Name": "Mousepad-Braided ribbon",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "4C0F0B8E-5CF3-47cf-BEF8-669B2EC2FEEA",
+	"Name": "Mousepad-Color band connection",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "5C6B3532-9E17-4805-8B7E-BABBC45382CA",
+	"Name": "Mousepad-Welcome rainbow",
+	"LeCate": 120,
+	"LeType": "simple"
+},
+{
+	"GUID": "8FBE33A4-675D-427e-9C94-C1A108C15A12",
+	"Name": "Mousepad-LightOff",
+	"LeCate": 120,
+	"LeType": "simple"
+}]

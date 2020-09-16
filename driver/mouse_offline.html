@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="res/lib/minicolors/jquery.minicolors.css">
+    <link rel="stylesheet" href="res/lib/cmsui/css/cmsui.min.css">
+    <link rel="stylesheet" href="res/css/app.css">
+    <link rel="stylesheet" href="res/css/mouse.css">
+  </head>
+  <body>
+    <div id="profilelist" class="profilelist"></div>
+    <div class="ol_content">
+      <div class="ol_left">
+        <ul class="tab-list ol_left_menu" id="menu_select">
+          <li class="active" cms-lang="kb_assigning_functions">功能指定</li>
+          <li cms-lang="kb_mouse_performance">性能</li>
+          <li cms-lang="kb_lamp_efficacy">灯效</li>
+        </ul>
+        <!-- 功能设定 -->
+        <div class="ol_func" id="func_setting">
+          <div class="button-got" id="button-got">
+            <span></span>
+          </div> 
+
+          <div class="tools_1_func" id="tools_1">      
+            <div class="ximagebutton">
+                <input class="ximagebutton-image" type="image" draggable="false" src="res/img/keyboard_1.png"></input>
+                <label class="ximagebutton-label" cms-lang="kb_keyboard">键盘</label>
+            </div>
+
+            <div class="ximagebutton">
+                <input class="ximagebutton-image" type="image" draggable="false" src="res/img/macro_1.png"></input>
+                <label class="ximagebutton-label" cms-lang="kb_macro">宏</label>
+            </div>
+
+            <div class="ximagebutton">
+                <input class="ximagebutton-image" type="image" draggable="false" src="res/img/light_1.png"></input>
+                <label class="ximagebutton-label" cms-lang="kb_lamp">灯光</label>
+            </div>
+
+            <div class="ximagebutton">
+                <input class="ximagebutton-image" type="image" draggable="false" src="res/img/mouse_1.png"></input>
+                <label class="ximagebutton-label" cms-lang="kb_mouse">鼠标</label>
+            </div>
+            
+            <div class="ximagebutton">
+                <input class="ximagebutton-image" type="image" draggable="false" src="res/img/media_1.png"></input>
+                <label class="ximagebutton-label" cms-lang="kb_media">媒体</label>
+            </div>
+            
+            <div class="ximagebutton">
+                <input class="ximagebutton-image" type="image" draggable="false" src="res/img/hotkey_1.png"></input>
+                <label class="ximagebutton-label" cms-lang="kb_hotkey">热键</label>
+            </div>
+            
+            <div class="ximagebutton">
+                <input class="ximagebutton-image" type="image" draggable="false" src="res/img/disable_1.png"></input>
+                <label class="ximagebutton-label" cms-lang="kb_disable">禁用</label>
+            </div>
+          </div>
+          <div class="tools_2" id="tools_2">      
+            <div class="functions singlebutton" id="tool_singlebutton" data-menu-p-name="singlebutton" style="display:block;">
+              <div class="func-setting">
+                <p class="title" cms-lang="kb_keyboard_functions">按键功能</p>
+                <p class="func-intro" cms-lang="kb_select_button_set_functions">选择一个按键更改它的功能</p>
+                <div class="now-button" id="now_button">
+                    <input type="text" class="now-button-input" id="com_key"/>
+                </div>
+                <button class="btn button btn-remove" id="remove_singlebutton" cms-lang="kb_clear">清除</button>
+              </div>
+
+              <div class="confirm">
+                <div class="yes">
+                  <input class="imagebutton" type="image"  draggable="false" src="res/img/confirm_1.png"></input>
+                </div>
+              </div>
+            </div>
+
+            <div class="functions macro" id="tool_macro" data-menu-p-name="macro">
+              <div class="func-setting">
+                <p class="title" id="macro_menu"><span cms-lang="kb_macro_list">宏列表</span></p>
+                <div class="menu-list">
+                <ul>
+                </ul>
+                </div>
+                <p class="title" cms-lang="kb_playing_mode">播放方式</p>
+                <div class="func-items" id="now_macro_type">
+                  <div class="func-item active">
+                    <img src="res/img/original_point_3.png">
+                    <p><span cms-lang="kb_perform">执行</span><input type="text" class="macro-play-time" value="1" id="repeats" onkeypress="if (event.keyCode < 48 || event.keyCode > 57) event.returnValue = false;"/><span cms-lang="kb_end_auto_stop">次结束自动停止</span></p>
+                  </div>
+                  <div class="func-item">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_macro_key_stop">宏按键松开停止</p>
+                  </div>
+                  <div class="func-item">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_macro_key_to_stop">宏按键再次按下停止</p>
+                  </div>          
+                </div>
+              </div>
+
+              <div class="confirm">
+                <div class="yes">
+                  <input class="imagebutton" type="image"  draggable="false" src="res/img/confirm_1.png"></input>
+                </div>
+              </div>
+            </div>
+
+            <div class="functions light" id="tool_light" data-menu-p-name="light">
+              <div class="func-setting">
+                <p class="title" cms-lang="kb_light_list">灯光列表</p>
+                <div class="menu-list" style="height: 450px;">
+                <ul>
+                </ul> 
+                </div>
+              </div>
+
+              <div class="confirm">
+                <div class="yes">
+                  <input class="imagebutton" type="image"  draggable="false" src="res/img/confirm_1.png"></input>
+                </div>
+              </div>
+            </div>
+
+            <div class="functions mouse" id="tool_mouse" data-menu-p-name="mouse">
+              <div class="func-setting">
+                <p class="title" cms-lang="kb_mouse_function">鼠标功能</p>
+                <div class="func-items">
+                  <div class="func-item" DriverValue="0x01010001" MenuName="LeftClick">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_left_click">单击左键</p>
+                  </div>
+
+                  <div class="func-item" DriverValue="0x01010002" MenuName="RightClick">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_right_click">单击右键</p>
+                  </div>
+
+                  <div class="func-item" DriverValue="0x01010004" MenuName="MiddleClick">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_middle_click">单击中键</p>
+                  </div>
+
+                  <div class="func-item" DriverValue="0x01010008" MenuName="Back">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_back_off">后退</p>
+                  </div>
+
+                  <div class="func-item" DriverValue="0x01010010" MenuName="Forward">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_advance">前进</p>
+                  </div>
+
+                  <div class="func-item" DriverValue="0x05000001" MenuName="DPICycle">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_mouse_dpi_cycle">DPI周期循环</p>
+                  </div>
+
+                  <div class="func-item" DriverValue="0x05000002" MenuName="DPIUp">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_mouse_dpi_up">提高DPI</p>
+                  </div>
+
+                  <div class="func-item" DriverValue="0x05000003" MenuName="DPIDown">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_mouse_dpi_down">降低DPI</p>
+                  </div>
+
+                  <div class="func-item" DriverValue="0x07006401" MenuName="Firekey">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_mouse_firekey">火力键</p>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="confirm">
+                <div class="yes">
+                  <input class="imagebutton" type="image"  draggable="false" src="res/img/confirm_1.png"></input>
+                </div>
+              </div>
+            </div>
+
+            <div class="functions media" id="tool_media" data-menu-p-name="media">
+              <div class="func-setting">
+                <p class="title" cms-lang="kb_media_command">媒体命令</p>
+                <div class="func-items">
+                  <div class="func-item" DriverValue="0x03000183" MenuName="MediaPlayer">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_media_player">媒体播放器</p>
+                  </div>
+                  
+                  <div class="func-item" DriverValue="0x030000CD" MenuName="PlayPause">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_play_pause">播放/暂停</p>
+                  </div>
+
+                  <div class="func-item" DriverValue="0x030000B7" MenuName="Stop">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_stop">停止</p>
+                  </div>
+
+                  <div class="func-item" DriverValue="0x030000B6" MenuName="PreTrack">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_prev_song">上一曲</p>
+                  </div>
+
+                  <div class="func-item" DriverValue="0x030000B5" MenuName="NextTrack">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_next_song">下一曲</p>
+                  </div>
+
+                  <div class="func-item" DriverValue="0x030000E9" MenuName="VolumeUp">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_plus_volume">加音量</p>
+                  </div>
+                  
+                  <div class="func-item" DriverValue="0x030000EA" MenuName="VolumeDown">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_reduce_volume">减音量</p>
+                  </div>
+                  
+                  <div class="func-item" DriverValue="0x030000E2" MenuName="Mute">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_mute">静音</p>
+                  </div>
+                </div>  
+              </div>  
+
+              <div class="confirm">
+                <div class="yes">
+                  <input class="imagebutton" type="image"  draggable="false" src="res/img/confirm_1.png"></input>
+                </div>
+              </div>    
+            </div>
+
+            <div class="functions hotbutton" id="tool_hotbutton" data-menu-p-name="hotbutton">
+              <div class="func-setting">
+                <p class="title" cms-lang="kb_hotkey">热键</p>
+                <div class="func-items">
+                  <div class="func-item" DriverValue="0x03000224" MenuName="BrowserBack">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_brower_back">浏览器后退</p>
+                  </div>
+                  <div class="func-item" DriverValue="0x03000225" MenuName="BrowserForward">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_brower_advance">浏览器前进</p>
+                  </div>
+                  <div class="func-item" DriverValue="0x03000227" MenuName="BrowserReload">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_brower_refresh">浏览器刷新</p>
+                  </div>
+                  <div class="func-item" DriverValue="0x0300022A" MenuName="BrowserFavorite">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_brower_collection">浏览器收藏</p>
+                  </div>
+                  <div class="func-item" DriverValue="0x03000223" MenuName="BrowserHome">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_brower_home">浏览器主页</p>
+                  </div>
+                  <div class="func-item" DriverValue="0x0300018A" MenuName="Email">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_email">Email</p>
+                  </div>
+                  <div class="func-item" DriverValue="0x03000194" MenuName="MyComputer">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_my_computer">我的电脑</p>
+                  </div>
+                  <div class="func-item" DriverValue="0x03000192" MenuName="Caculate">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_calculator">计算器</p>
+                  </div>
+                  <div class="func-item" DriverValue="0x02000601" MenuName="Copy">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_copy">复制</p>
+                  </div>
+                  <div class="func-item" DriverValue="0x02001901" MenuName="Paste">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_paste">粘贴</p>
+                  </div>
+                  <div class="func-item" DriverValue="0x02004600" MenuName="PrtScrn">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="kb_screenshot">截屏</p>
+                  </div>
+                </div>
+              </div>
+              <div class="confirm">
+                <div class="yes" pic="confirm" id="tools_confirm">
+                  <input class="imagebutton" type="image"  draggable="false" src="res/img/confirm_1.png"></input>
+                </div>
+              </div>
+            </div>
+
+            <div class="functions forbidden" id="tool_forbidden" data-menu-p-name="forbidden">
+              <div class="func-setting">
+                <p class="title" cms-lang="kb_current_key">当前按键</p>
+                <div class="func-forbidden" id="current_key_name"></div>
+              </div>
+              <div class="confirm">
+                <div class="yes">
+                  <input class="imagebutton" type="image"  draggable="false" src="res/img/confirm_1.png"></input>
+                </div>
+              </div>
+            </div>         
+            <div class="change-cover"></div>
+          </div>
+        </div>
+        <!-- 灯效 -->
+        <div class="ol_func" id="lamp_setting" style="display:none;">
+          <div class="tools_1_le" id="tools_lamp_1">      
+            <div class="ximagebutton">
+                <input class="ximagebutton-image" type="image" draggable="false" src="res/img/lampbase_1.png"></input>
+                <label class="ximagebutton-label" cms-lang="kb_lamp_efficacy">灯效</label>
+            </div>
+          </div>
+          <div class="tools_2" id="tools_lamp_2">      
+            <div class="functions lamp" id="tool_lamp" data-menu-p-name="lamp" style="display:block;">
+              <p class="title" cms-lang="kb_static_light">自定义静态灯效</p>
+              <div class="func-static-lelist">
+                <div class="static-lelist">
+                  <ul>
+                  </ul>
+                </div>
+              </div>
+
+              <p class="title" cms-lang="kb_light_list">灯光列表</p>
+              <div class="func-setting" style="height: 190px;">
+                <div class="menu-list">
+                <ul>
+                </ul>
+                </div>
+              </div>
+
+              <div id="logo_color_set" style="height: 140px;">
+                <p class="title">
+                  <label>
+                    <input id="logo_chk" type="checkbox"/>&nbsp;
+                    <span cms-lang="le_logo_light">Logo灯效</span>
+                  </label>
+                </p>
+                <div class="func-items">
+                  <div class="func-item" logotype="0">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="le_dpi_monochrome_breath">DPI指示-单色呼吸</p>
+                  </div>
+                  <div class="func-item" logotype="1">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="le_dpi_monochrome_always">DPI指示-单色常亮</p>
+                  </div>
+                  <div class="func-item" logotype="2">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="le_dpi_neon">霓虹灯效</p>
+                  </div>
+                  <div class="func-item" logotype="3">
+                    <img src="res/img/original_point_1.png">
+                    <p cms-lang="le_dpi_muticolor_breath">七彩呼吸</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="confirm">
+                <div class="yes">
+                  <input class="imagebutton" type="image"  draggable="false" src="res/img/confirm_1.png"></input>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--鼠标性能-->
+        <div class="ol_func functions" id="mouse_performance" style="display:none;" data-menu-p-name="performance">
+
+        <div class="tools_left_1 performance">
+            <p class="title" cms-lang="kb_mouse_performance_sensitivity">灵敏度</p>
+            <p class="content" cms-lang="kb_mouse_performance_dots_dpi">鼠标移动的每英寸点数（DPI）值</p>
+
+            <div class="level" id="sensetivity_level">
+                <div class="item" pic="LEVEL_1" level="0">
+                    <p cms-lang="kb_mouse_performance_level_1">等级1</p>
+                    <p class="num">500</p>
+                </div>
+
+                <div class="item" pic="LEVEL_2" level="1">
+                    <p  cms-lang="kb_mouse_performance_level_2">等级2</p>
+                    <p class="num">900</p>
+                </div>
+
+                <div class="item" pic="LEVEL_3" level="2">
+                    <p cms-lang="kb_mouse_performance_level_3">等级3</p>
+                    <p class="num">1500</p>
+                </div>
+
+                <div class="item" pic="LEVEL_4" level="3">
+                    <p cms-lang="kb_mouse_performance_level_4">等级4</p>
+                    <p class="num">2100</p>
+                </div>
+
+                <div class="item" pic="LEVEL_5" level="4">
+                    <p cms-lang="kb_mouse_performance_level_5">等级5</p>
+                    <p class="num">3500</p>
+                </div>
+
+                <div class="item" pic="LEVEL_6" level="5">
+                    <p cms-lang="kb_mouse_performance_level_6">等级6</p>
+                    <p class="num">5000</p>
+                </div>
+
+                <div class="item" pic="LEVEL_7" level="6">
+                    <p cms-lang="kb_mouse_performance_level_7">等级7</p>
+                    <p class="num">7200</p>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+
+            <div class="level_bar">
+              <div id="dpi_bar" class="range"></div>
+            </div>
+
+            <div class="dpi-color">
+              <p class="title" cms-lang="kb_mouse_dpi_color_set">DPI颜色设置</p>
+              <div class="colors">
+                <div class="items">
+                  <div class="item dpi-red" colorindex="1"></div>
+                  <div class="item dpi-green" colorindex="2"></div>
+                  <div class="item dpi-yellow" colorindex="3"></div>
+                  <div class="item dpi-blue" colorindex="4"></div>
+                  <div class="item dpi-purple" colorindex="5"></div>
+                  <div class="item dpi-cyan" colorindex="6"></div>
+                  <div class="item dpi-white" colorindex="7"></div>
+                </div>
+              </div>
+            </div>
+
+            <p class="title" cms-lang="kb_mouse_performacne_refresh_rate">刷新率</p>
+            <p class="content" cms-lang="kb_mouse_performance_device_update_frequency">设备的数据更新频率（Hz）</p>
+
+            <div class="hz" id="hz_select">
+                <div class="item" hz="0" pic="HZ_1">
+                    <img src="res/img/mouse_hz_1_1.png">
+                </div>
+
+                <div class="item" hz="1" pic="HZ_2">
+                    <img src="res/img/mouse_hz_2_1.png">
+                </div>
+
+                <div class="item" hz="2" pic="HZ_3">
+                    <img src="res/img/mouse_hz_3_1.png">
+                </div>
+
+                <div class="item" hz="3" pic="HZ_4">
+                    <img src="res/img/mouse_hz_4_1.png">
+                </div>
+            </div>
+
+            <div id="btn_perform" class="confirm" style="text-align:center;margin-top:15px;">
+              <div id="apply_perform" class="">
+                <input class="imagebutton" type="image"  draggable="false" src="res/img/confirm_1.png"></input>
+              </div>
+            </div>
+        </div>
+
+        </div>
+      </div>
+      <div class="ol_right">
+        <div id="device" class="device" data-width="810px">
+        </div> 
+        <div class="bottom-navs" id="bottom_nav" style="display:none;">   
+          <div class="color-picker">
+            <input type="text" id="picker" class="picker" data-inline="true" value="#4fc8db">
+            <div class="color-selected">
+              <p cms-lang="kb_current_color">当前颜色</p>
+              <div class="current-color" id="current_color"></div>
+            </div>
+          </div>
+          <div class="colors">
+            <p class="title" cms-lang="kb_classic">经典</p>
+            <div class="items" id="choose_color">
+              <div class="item red"></div>
+              <div class="item orange"></div>
+              <div class="item yellow"></div>
+              <div class="item green"></div>
+              <div class="item white"></div>
+              <div class="item cyan" ></div>
+              <div class="item blue"></div>
+              <div class="item purple"></div>
+              <div class="item pink"></div>
+              <div class="item black"></div>
+              <div class="item redo"></div>
+              <div class="item orangeo"></div>
+              <div class="item yellowo"></div>
+              <div class="item greeno"></div>
+              <div class="item whiteo"></div>
+              <div class="item cyano"></div>
+              <div class="item blueo"></div>
+              <div class="item purpleo"></div>
+              <div class="item pinko"></div>
+              <div class="item blacko"></div>
+              <div class="item redt"></div>
+              <div class="item oranget"></div>
+              <div class="item yellowt"></div>
+              <div class="item greent"></div>
+            </div>
+          </div>
+          <div class="le-configs" id="le_configs">
+            <div class="le-config">
+              <div class="le-config-color" id="le_config_color_select">
+                <p class="le-config-color-select" cms-lang="color_param_set">颜色参数设置</p>
+                <div class="le-config-color-dropdown" id="le_color_dropdown"></div>
+              </div>
+
+              <div class="le-config-type-items" id="le_config_colors">
+                <div class="item">颜色参数: 单色</div>
+                <div class="item">颜色参数: 呼吸</div>
+                <div class="item">颜色参数: RGB</div>
+              </div>
+            </div> 
+            <div class="le-config-set" id="le_config_set">
+              <div class="le-config-set-color"><span id="le_config_set_color"></span></div>
+            </div> 
+          </div>  
+        </div>
+        <button id="apply" class="btn button btn-apply" cms-lang="kb_application">应用</button>
+      </div>  
+    </div>
+    <script type="text/javascript" src="res/lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="res/lib/minicolors/jquery.minicolors.js"></script>
+    <script type="text/javascript" src="res/lib/jquery.color-2.1.2.js"></script>
+    <script type="text/javascript" src="res/lib/cmsui/js/cmsui.min.js"></script>
+    <script type="text/javascript" src="res/js/mouse_offline.js"></script>
+    <script type="text/javascript" src="res/js/common.js"></script>
+  </body>
+</html>

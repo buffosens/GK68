@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+  <title>SEMITEK</title>
+  <link rel="stylesheet" href="res/css/app.css">
+  <link rel="stylesheet" href="res/lib/cmsui/css/cmsui.min.css">
+  <link href="res/lib/colorpicker/colorpicker.css" rel="stylesheet">
+  <link href="res/css/le.css" rel="stylesheet">
+</head>
+<body>
+<div class="main" id="main">
+    <div id="device" class="device" data-width="940px" data-scale="0.75" style="float:left;">
+    </div>
+    <ul class="num-row" id="num_row" style="display:none;">
+        <li cms-lang="le_first_row" style="display:none;">第一排</li>
+        <li cms-lang="le_first_row">第一排</li>
+        <li cms-lang="le_two_row">第二排</li>
+        <li cms-lang="le_third_row">第三排</li>
+        <li cms-lang="le_fourth_row">第四排</li>
+        <li cms-lang="le_five_row">第五排</li>
+        <li cms-lang="le_select">全选</li>
+        <li cms-lang="le_unselect_all">全不选</li>
+    </ul>
+</div>
+
+<div id="custom_light" class="lamp-1" style="display:block">
+    <p class="text-p" cms-lang="le_custom_lamp_effect">自定义灯效</p>
+    <div class="lamp-con-left">
+        <div class="addcon"></div>
+        <div class="con-text-copy"></div>
+        <div class="con-text-span"></div>
+        <div id="light_edit" class="con-text-button"></div>
+        <div id="import_le" class="con-text-import"></div>
+        <div id="download_le" class="con-text-download"></div>
+        <div class="lamp-share"></div>
+    </div>
+    <div id="lamp-con" class="lamp-con">
+    </div>
+</div>
+
+<div id="animate" class="lamp-2" style="display:none">
+    <div class="select-text-p select-text-p-thr">
+        <p id="animation" class="act" cms-lang="le_animation">动画</p>
+        <p id="detail" class="blk" cms-lang="le_lamp_effect_designation">灯效指定</p>
+    </div>
+    <div class="lamp-con-left">
+        <div class="addcon"></div>
+        <div class="con-text-copy"></div>
+        <div class="con-text-span"></div>
+        <div class="up-key"></div>
+        <div class="down-key"></div>
+    </div>
+    <div class="lamp-con lamp-two" id="lamp_frame">
+        <ul class="con-text con-text-li">
+            <li cms-lang="le_frame_number">帧数</li>
+            <li cms-lang="le_name">名称</li>
+            <li cms-lang="le_delete">删除</li>
+        </ul>
+        <div id="con-frame" >
+        </div>
+        <div class="con-text-addcon"></div>
+
+        <div class="lamp-two-buttom" id="frame_bottom">
+            <div class="lamp-setting lamp-two-buttom-play">
+                <span class="play-bg" cms-lang="le_playblast">播放预览</span>
+                <span class="play-stop" style="display:none" cms-lang="le_stop_playing">停止播放</span>
+            </div>
+            <div class="lamp-button">
+                <div class="lamp-cancel">
+                    <span cms-lang="le_cancel">取消</span>
+                </div>
+                <div class="lamp-save">
+                    <span cms-lang="le_preservation">保存</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="light_setting" class="lamp-3" style="display:none">
+    <div class="select-text-p select-text-p-thr">
+        <p id="animation" class="blk" cms-lang="le_animation">动画</p>
+        <p id="detail" class="act" cms-lang="le_lamp_effect_designation">灯效指定</p>
+    </div>
+    <div class="lamp-con-left">
+        <div class="addcon"></div>
+        <div class="con-text-copy"></div>
+        <div class="con-text-span"></div>
+        <ul class="con-text con-text-li-two add-color-choice" style="display:none">
+            <li class="con-text-color-li" lighttype="0" cms-lang="le_monochrome">单色</li>
+            <li class="con-text-color-li" lighttype="1" cms-lang="le_rgb">RGB</li>
+            <li class="con-text-color-li" lighttype="2" cms-lang="le_breathing">呼吸</li>
+        </ul>
+    </div>
+    <div class="lamp-con lamp-two" id="lightcolor_setting">
+        <ul class="con-text con-text-li">
+            <li cms-lang="le_frame_number">帧数</li>
+            <li cms-lang="le_param_color">颜色</li>
+            <li cms-lang="le_param_color_type" style="margin-left:5px;">类型</li>
+            <li cms-lang="le_delete">删除</li>
+        </ul>
+        <div id="con-color">
+            <div class="con-text-list-act">
+                <div class="con-text-num">
+                    <input type="text" value="1" />
+                </div>
+                <div class="con-defult"></div>
+                <p class="con-text-color-name" cms-lang="le_monochrome1">单色</p>
+                <span class="con-text-span-delete"></span>
+            </div>
+            <div class="con-text-list">
+                <div class="con-text-num">
+                    <input type="text" value="1" />
+                </div>
+                <div class="con-defult"></div>
+                <p class="con-text-color-name" cms-lang="le_monochrome1">单色</p>
+                <span class="con-text-span-delete"></span>
+            </div>
+            <div class="con-text-list">
+                <div class="con-text-num">
+                    <input type="text" value="1" />
+                </div>
+                <div class="con-defult"></div>
+                <p class="con-text-color-name" cms-lang="le_monochrome1">单色</p>
+                <span class="con-text-span-delete"></span>
+            </div>
+        </div>
+    </div>
+    <div class="con-text-color-pickholder" id="color_select" style="display:none;">
+        <div id="colorpickerHolder"></div>
+        <div >
+            <div class="con-text-save" cms-lang="le_preservation">保存</div>
+            <div class="con-text-cancel" cms-lang="le_cancel">取消</div>
+        </div>
+    </div>
+    <div class="con-text-breath" id="breath_frame_setting">
+        <div class="con-text-breath-frame">
+            <label for="frame_count" class="con-text-label" cms-lang="le_breathing_change_frames">呼吸变化帧数</label>
+            <input type="text" class="con-text-frame-setting" value="" id="frame_count" />
+        </div>
+        <div class="con-text-breath-frame">
+            <label for="frame_count" class="con-text-label" cms-lang="le_breathing_for_frames">呼吸停留帧数</label>
+            <input type="text" class="con-text-frame-setting" value="" id="stay_count" />
+        </div>
+        <div class="con-text-breath-bottom">
+            <div class="con-text-breath-submit" cms-lang="le_ok">确认</div>
+            <div class="con-text-breath-cancel" cms-lang="le_cancel">取消</div>
+        </div>
+    </div>
+    <div class="lamp-two-buttom" id="light_setting_bottom" >
+        <div class="lamp-setting lamp-two-buttom-play">
+            <span class="play-bg" cms-lang="le_playblast">播放预览</span>
+            <span class="play-stop" style="display:none" cms-lang="le_stop_playing">停止播放</span>
+        </div>
+        <div class="lamp-button">
+            <div class="lamp-cancel">
+                <span cms-lang="le_cancel">取消</span>
+            </div>
+            <div class="lamp-save">
+                <span cms-lang="le_preservation">保存</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="res/lib/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="res/lib/cmsui/js/cmsui.min.js"></script>
+<script type="text/javascript" src="res/lib/colorpicker/colorpicker.js"></script>
+<script type="text/javascript" src="res/js/le.js"></script>
+<script type="text/javascript" src="res/js/common.js"></script>
+</body>
+</html>
